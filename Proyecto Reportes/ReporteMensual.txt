@@ -1,0 +1,5 @@
+@echo off
+echo ------Inicio de reporte------
+cd /d %~dp0
+python Main.py
+pause
