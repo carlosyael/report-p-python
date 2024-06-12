@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=c:\Users\carlo\OneDrive\Documentos\Escritorio\Desarrollo\Python Oracle Connection Project\.venv
+set VIRTUAL_ENV=c:\Users\carlo\OneDrive\Documentos\Escritorio\Desarrollo\report-p-python repository\Proyecto Reportes\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
