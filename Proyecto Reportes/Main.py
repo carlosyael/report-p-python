@@ -70,7 +70,7 @@ def ejecutar_consulta(connection, sql_query, QueryName):
             print(f"Archivo {excel_file} eliminado")
 
         # Guardar el DataFrame en el archivo Excel
-        df.to_excel(excel_file)
+        df.to_excel(excel_file ,index=False)
         printGreen(f"Datos guardados en {excel_file}")
 
     except pd.errors.DatabaseError as db_error:
